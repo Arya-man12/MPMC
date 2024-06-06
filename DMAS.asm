@@ -1,0 +1,24 @@
+MOV B,#12H  
+MUL AB  
+MOV 35H,A  
+MOV A,#03H  
+MOV  B,#12H  
+MUL AB  
+MOV 36H,A  
+MOV A,36H  
+MOV 
+B,35H ADD 
+A,B  
+MOV 37H,A  
+MOV A,#06H  
+MOV B,#02H  
+MUL AB  
+MOV 39H ,A  
+MOV A,37H  
+ 
+MOV B,39H  
+SUBB A,B  
+MOV B,#12H  
+DIV AB  
+MOV 40H ,A  
+END 
